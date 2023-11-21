@@ -34,7 +34,6 @@ if __name__ == '__main__':
                 file.write(f"fill({r}, {g}, {b}, {a});\n")
                 lastColor = (r, g, b, a)
             file.write(f"rect({x * size}, {y * size}, {size}, {size});\n")
-            file.write("\n")
             file.flush()
 
 
